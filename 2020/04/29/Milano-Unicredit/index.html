@@ -8,7 +8,7 @@
 
   <!-- Title -->
   
-  <title>Milano Unicredit - Naonao Photography Album</title>
+  <title>Milano Unicredit - PHOTO ALBUM</title>
 
   <!--Favicon-->
   <link rel="icon" href="favicon/favicon.ico">
@@ -27,6 +27,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
 
+  <!-- Awecome Font CSS -->
+  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.0/css/all.css" rel="stylesheet">
+
   <!-- Custom CSS -->
   
 <link rel="stylesheet" href="/css/styles.css">
@@ -41,6 +44,12 @@
   <!-- Google Analytics -->
   
 
+
+  <!-- Enable Valine Comment  -->
+  
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  
+
 <meta name="generator" content="Hexo 4.2.0"></head>
 
 
@@ -48,7 +57,12 @@
   	<div class="container-fluid navbar-container m-sm-5">
       <!-- Header -->
       <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
-  <a class="navbar-brand ml-2" href="/">Naonao Photography Album</a>
+
+        <!-- <div class="navbar-brand ml-2"> -->
+            <a class="navbar-brand ml-2" href="/">PHOTO ALBUM</a>
+        <!-- </div> -->
+
+
   <button class="navbar-toggler navbar-toggler-right py-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -75,16 +89,36 @@
 </div> -->
 <div class="col-lg-3 col-12 pt-3 px-4 pr-lg-5">
   <h1>Milano Unicredit</h1>
-  <h6>
-      Wed Apr 29 2020
- </h6>
+  <h6>2020年04月29日</h6>
  <h6>Milano</h6>
 </div>
 
 <div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
-  <h1 id="Milano-Unicredit"><a href="#Milano-Unicredit" class="headerlink" title="Milano Unicredit"></a>Milano Unicredit</h1><p><img src="https://raw.githubusercontent.com/wudinaonao/image-bucket-0/master/_77A9337.jpg" alt=""></p>
+    
+    <!-- content -->
+    <!-- 给文章的里的图片标签增加 contene-img 类方便控制文章图片  -->
+    <h1 id="Milano-Unicredit"><a href="#Milano-Unicredit" class="headerlink" title="Milano Unicredit"></a>Milano Unicredit</h1>
 
+    <!-- enable comment -->
+    
+        
+            
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: "1QwVKbgrOn3vsyqu1wVGK9zR-gzGzoHsz",
+            appKey: "5LOSyJXhiiFxLCHYjudBDcf8",
+            placeholder: "吐个槽",
+            recordIP: "true"
+        })
+    </script>
+
+        
+    
 </div>
+
+
 
 
       </div>
@@ -92,9 +126,39 @@
   	</div>
 
     <!-- After footer scripts -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <!-- beian -->
+<div class="footer">
+    
+    <!-- 备案信息 -->
+    <div class="beian">
+        <a 
+            href="http://beian.miit.gov.cn/" 
+            rel="nofollow noopener"
+        >
+            晋ICP备20001113号
+        </a>
+
+        
+            <img 
+                src="/images/beian.png" 
+                alt="police-icon" 
+                style="width: 28px; height: 28px;" 
+            />
+           
+
+    </div>
+
+
+    
+        <p><i class="fas fa-heart" style="color: red; margin-right: 10px;"></i>Copyright © 2019 - 2020 Naonao Studio All Rights Reserved.</p>
+    
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 
   </body>
 </html>
