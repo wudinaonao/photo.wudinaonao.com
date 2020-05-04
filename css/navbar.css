@@ -1,0 +1,70 @@
+.navbar-brand {
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+.navbar {
+  text-transform: uppercase;
+}
+.nav-item {
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+.navbar-toggler {
+  border: 0;
+}
+.navbar-toggler-right {
+  right: 0rem;
+}
+.custom-nav-link-div {
+  margin: 0 10px;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.custom-nav-link-div a {
+  text-decoration: none;
+}
+@media (prefers-color-scheme: light) {
+  .custom-nav-link-div a {
+    color: $color-AISUMICHA;
+  }
+  .custom-nav-link-div a:hover {
+    transition: 1s;
+    color: $color-RO;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .custom-nav-link-div a {
+    color: $color-SHIRONEZUMI;
+  }
+  .custom-nav-link-div a:hover {
+    transition: 1s;
+    color: $color-LIGHT;
+  }
+}
+.page-nav {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.page-nav a,
+.page-nav span {
+  font-size: 1.3rem;
+  font-family: 'Crimson Text', sans-serif;
+  font-weight: 300;
+  margin: 0 10px;
+}
+@media (prefers-color-scheme: light) {
+  .page-nav a,
+  .page-nav span {
+    color: $color-AISUMICHA;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .page-nav a,
+  .page-nav span {
+    color: $color-SHIRONEZUMI;
+  }
+}

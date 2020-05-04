@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Crimson Text', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+@media (prefers-color-scheme: light) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: $color-AISUMICHA;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: $color-SHIRONEZUMI;
+  }
+}
+@media (prefers-color-scheme: light) {
+  h5,
+  h6 {
+    color: $color-AISUMICHA;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  h5,
+  h6 {
+    color: $color-SHIRONEZUMI;
+  }
+}
+.post-content img {
+  width: 100%;
+  margin: 0 0 20px 0;
+  box-shadow: $shadow;
+}
+@media (prefers-color-scheme: light) {
+  .post-content {
+    color: $color-AISUMICHA;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .post-content {
+    color: $color-SHIRONEZUMI;
+  }
+}

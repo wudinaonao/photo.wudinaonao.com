@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <!-- Head tag -->
   <head>
   <meta charset="utf-8">
@@ -43,6 +44,28 @@
 
   <!-- Google Analytics -->
   
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-165348730-3', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+    <!-- Baidu Analytics -->
+    
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b36fb4ffa3aac4983ca5156befe8e61a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 
 
   <!-- Enable Valine Comment  -->
@@ -70,15 +93,21 @@
     <ul class="navbar-nav ml-auto my-auto">
       
         <li class="nav-item">
-          <a class="nav-link" href="https://www.wudinaonao.com" target="_blank" rel="noopener">Home</a>
+            <div class="custom-nav-link-div">
+                <a href="https://www.wudinaonao.com" target="_blank" rel="noopener">Home</a>
+            </div>
         </li>
       
         <li class="nav-item">
-          <a class="nav-link" href="https://blog.wudinaonao.com" target="_blank" rel="noopener">Blog</a>
+            <div class="custom-nav-link-div">
+                <a href="https://blog.wudinaonao.com" target="_blank" rel="noopener">Blog</a>
+            </div>
         </li>
       
         <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
+            <div class="custom-nav-link-div">
+                <a href="/about">About</a>
+            </div>
         </li>
       
     </ul>
@@ -92,17 +121,22 @@
   <img class="img-fluid project-img" src="https://wudinaonao-1257394124.cos.ap-beijing.myqcloud.com/%E6%97%A0%E6%A0%87%E9%A2%98_HDR2.jpg" alt="如是我闻">
 </div> -->
 <div class="col-lg-3 col-12 pt-3 px-4 pr-lg-5">
-  <h1>如是我闻</h1>
-  <h6>2020年04月29日</h6>
- <h6>中国 四川 乐山</h6>
+    <h1>如是我闻</h1>
+    <h6>2020年 04月 29日</h6>
+    <h6>中国 四川 乐山</h6>
 </div>
 
 <div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
     
     <!-- content -->
     <!-- 给文章的里的图片标签增加 contene-img 类方便控制文章图片  -->
-    <p><img class="content-img" src="https://wudinaonao-1257394124.cos.ap-beijing.myqcloud.com/%E6%97%A0%E6%A0%87%E9%A2%98_HDR2.jpg" alt=""></p>
+    <!-- <p><img class="content-img" src="https://wudinaonao-1257394124.cos.ap-beijing.myqcloud.com/%E6%97%A0%E6%A0%87%E9%A2%98_HDR2.jpg" alt=""></p>
+ -->
 
+    <div class="post-content">
+        <p><img src="https://wudinaonao-1257394124.cos.ap-beijing.myqcloud.com/%E6%97%A0%E6%A0%87%E9%A2%98_HDR2.jpg" alt=""></p>
+
+    </div>
 
     <!-- enable comment -->
     
@@ -147,7 +181,6 @@
             <img 
                 src="/images/beian.png" 
                 alt="police-icon" 
-                style="width: 28px; height: 28px;" 
             />
            
 
